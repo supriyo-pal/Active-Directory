@@ -1,0 +1,14 @@
+FSMO (Flexible single master operation) is the role of the AD
+It has 5 different roles
+forest master, domain master ,Relative ID , Primary Domain Controller ,Infrastructure master
+
+
+schema master is the collection of classes and attributes
+
+domain master is responsible for promote and demote domain controlers.Domain namig master is resposible to create add, and prevent duplicate name create in the forest.
+
+Relative ID is responsible to assign unique identification to the objects
+
+Primary Domain Controller is responsible to synchronize time accross the forest.
+
+Infrastructure Master is responsible to update user A/C information when its moved to different domain.
